@@ -1,6 +1,5 @@
 """
 Takes a string and prints it with spaces in between each character.
-
 You don't need to change this file.
 """
 
@@ -13,4 +12,3 @@ def str_to_spaces(input_string):
 
 if __name__ == '__main__':
     str_to_spaces('hello')  # Displays the string 'h e l l o'
-

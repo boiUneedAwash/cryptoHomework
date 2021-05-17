@@ -9,8 +9,10 @@ from helper_functions import binary, FIX_ME
 Using code from the bitwise_and() function (see helper_functions.py), create an additional function called xor() which perform the XOR operation.
 """
 def xor(integer_a, integer_b):
-    FIX_ME('Implement the xor() function')  # TODO: You can delete this line once you implement your function.
-    return 42  # TODO: Return the correct result.
+    print(f'The bitwise XOR of {binary(integer_a)} and {binary(integer_b)} is: ')
+    result = (integer_a ^ integer_b)
+    print(f'Result: {binary(result)}')
+    return result  # TODO: Return the correct result.
 
 
 

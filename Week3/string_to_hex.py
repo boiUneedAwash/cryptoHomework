@@ -8,8 +8,8 @@ from helper_functions import FIX_ME
 
 def str_to_hex(input_string):
     for character in input_string:
-        ascii_code = FIX_ME('TODO: Convert the character into an ascii code')  # TODO: Replace FIX_ME with the correct function name from above.
-        result = 'FIXME'  # TODO: Fix this line too. Print the ascii code as hex
+        ascii_code = ord(character)('TODO: Convert the character into an ascii code')  # TODO: Replace FIX_ME with the correct function name from above.
+        result = (hex(ascii_code))  # TODO: Fix this line too. Print the ascii code as hex
         # Print the result
         print(f'{result} ', end='')
     print('')

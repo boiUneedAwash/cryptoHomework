@@ -10,8 +10,14 @@ from helper_functions import binary, FIX_ME
 """
 Using code from the bitwise_and() function (see helper_functions.py), create an additional function called bitwise_or() which perform the bitwise OR operation (using the | character, also known as a pipe)
 """
+
+
 def bitwise_or(integer_a, integer_b):
     FIX_ME('Implement the bitwise_or() function')  # TODO: You can delete this line once you implement your function. 'pass' just tells Python to do nothing.
+    print(f'The bitwise OR of {binary(integer_a)} and {binary(integer_b)} is: ')
+    result = integer_a | integer_b
+    print(f'Result: {binary(result)}')
+    return result
 
 
 if __name__ == '__main__':

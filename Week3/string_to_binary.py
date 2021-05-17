@@ -5,10 +5,14 @@ from helper_functions import binary, FIX_ME
 
 
 def str_to_binary(input_string):
+    for character in input_string:
+        int1 = ord(character)
+        bin1 = bin(int1)
+        print(f'{bin1} ', end='')
+    print('')
     # TODO: Add a loop here which for each loop, prints the binary string corresponding to each input character
     # You will need to use 2 functions here. One to convert from character to integer, and another to convert from integer to binary.
-    FIX_ME('Implement str_to_binary()')
-
+    #FIX_ME('Implement str_to_binary()')
 
 
 
